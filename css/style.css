@@ -4,4 +4,30 @@ body {
 	font-weight: 700;
 	font-family: "PT Sans Narrow", "Arial", sans-serif;
 	color: #000000;
+	text-transform: uppercase;
+}
+
+.section-title {
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.catalog-title {
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: none;
+}
+
+.catalog-item-title {
+	text-transform: uppercase;
+}
+
+.product-composition {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.login-title {
+	font-size: 30px;
+	line-height: 1.2;
 }
