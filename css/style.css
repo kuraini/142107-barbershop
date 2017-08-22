@@ -1,3 +1,21 @@
+@font-face {
+	font-family: "PT Sans Narrow";
+	src: local("PT Sans Narrow"), local("PTSans-Narrow"),
+			 url("ptsansnarrow.woff2") format("woff2"),
+			 url("ptsansnarrow.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "PT Sans Narrow Bold";
+	src: local("PT Sans Narrow Bold"), local("PTSans-NarrowBold"),
+			 url("ptsansnarrowbold.woff2") format("woff2"),
+			 url("ptsansnarrowbold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
 body {
 	font-size: 14px;
 	line-height: 24px;
