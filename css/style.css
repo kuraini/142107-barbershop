@@ -1,34 +1,206 @@
 @font-face {
 	font-family: "PT Sans Narrow";
-	src: local("PT Sans Narrow"), local("PTSans-Narrow"),
-			 url("ptsansnarrow.woff2") format("woff2"),
-			 url("ptsansnarrow.woff") format("woff");
+	src: url("../fonts/ptsansnarrow.woff2") format("woff2"),
+			 url("../fonts/ptsansnarrow.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "PT Sans Narrow Bold";
-	src: local("PT Sans Narrow Bold"), local("PTSans-NarrowBold"),
-			 url("ptsansnarrowbold.woff2") format("woff2"),
-			 url("ptsansnarrowbold.woff") format("woff");
+	font-family: "PT Sans Narrow";
+	src: url("../fonts/ptsansnarrowbold.woff2") format("woff2"),
+			 url("../fonts/ptsansnarrowbold.woff") format("woff");
 	font-weight: bold;
 	font-style: normal;
 }
 
 body {
+	margin: 0;
+	padding: 0;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 700;
-	font-family: "PT Sans Narrow", "Arial", sans-serif;
-	color: #000000;
+	color: #ffffff;
 	text-transform: uppercase;
+	background-color: #000000;
+	background-image: url("../img/decor/bg.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.inner-page {
+	color: #000000;
+	background-color: #f9f6f3;
+	background-image: url("../img/decor/pattern.jpg");
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn {
+	font: inherit;
+	text-align: center;
+	color: #ffffff;
+	vertical-align: middle;
+	text-transform: uppercase;
+	background-color: #000000;
+	border: none;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+	background-color: #663d15;
+}
+
+.main-nav {
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.site-nav,
+.user-nav {
+	list-style: none;
+}
+
+.site-nav a,
+.user-nav a {
+	color: #ffffff;
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.user-nav a:hover,
+.user-nav a:focus {
+	background-color: #242424;
 }
 
 .section-title,
-.page-title {
+.page-title,
+.feature-title {
 	font-size: 30px;
 	line-height: 42px;
+}
+
+.features-list {
+	list-style: none;
+}
+
+.feature-item {
+	text-align: center;
+}
+
+.index-columns {
+	color: #000000;
+	background-color: #f8f5f2;
+	background-image: url("../img/decor/pattern.jpg");
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+.news-list {
+	list-style: none;
+}
+
+.news-item time {
+	text-transform: none;
+}
+
+.gallery-content {
+	background-color: #cccccc;
+	border: 7px solid #ffffff;
+}
+
+.appointment-item input {
+	font: inherit;
+	background-color: transparent;
+	border: 2px solid #000000;
+}
+
+.appointment-item input:focus {
+	border-color: #663d15;
+}
+
+.main-footer {
+	color: #ffffff;
+	background-color: #212121;
+	background-image: url("../img/decor/pattern-dark.jpg");
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+.footer-contacts a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+	text-decoration: none;
+}
+
+.footer-social {
+	text-align: center;
+}
+
+.footer-social-list {
+	list-style: none;
+}
+
+.social-btn {
+	color: #ffffff;
+}
+
+.footer-copyright {
+	text-align: center;
+}
+
+.footer-copyright .btn:hover,
+.footer-copyright .btn:focus {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.modal {
+	color: #000000;
+	background-color: #f8f3f0;
+	background-image: url("../img/decor/pattern.jpg");
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+	font: inherit;
+	color: #000000;
+	text-transform: uppercase;
+	background-color: #f9f6f3;
+	border: 2px solid #000000;
+}
+
+.login-form input:focus {
+	border-color: #663d15;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+	border-color: #663d15;
+}
+
+.restore {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.restore:hover,
+.restore:focus {
+	text-decoration: none;
 }
 
 .catalog-title {
